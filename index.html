@@ -1,51 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
-    <title>LS - Lucas Santos</title>
-    <meta name="description" content="Site feito com html e css. Lucas Santos.">
+    <title>Lucas Santos - WEB Developer</title>
+    <meta name="description" content="Lucas Santos - WEB Developer, React, HTML, CSS, JS, Node.js, Java and Springboot">
     <meta http-equiv="content-language" content="pt-br">
     <meta name="author" content="Lucas Santos">
-    <meta property="og:url"                content="https://lusrodri.github.io/" />
-    <meta property="og:title"              content="LS - Lucas Santos" />
-    <meta property="og:description"        content="Site Pessoal Lucas Santos" />
-    <meta property="og:image"              content="files/LS.pnj" />
-    <link rel="icon" href="files/LS.png"/>
+    <meta property="og:url" content="https://lusrodri.github.io/" />
+    <meta property="og:title" content="Lucas Santos - WEB Developer" />
+    <meta property="og:description"
+        content="Lucas Santos - WEB Developer, React, HTML, CSS, JS, Node.js, Java and Springboot" />
+    <meta property="og:image" content="images/foto_perfil.pnj" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="images/ls.png" type="image/x-icon">
 </head>
-<body style="background-color: gray;">
-    <table style="width: 100%; background-color: black; font-family: 'Zen Dots', cursive; border: 8px; border-style: solid; border-radius: 10px; border-color: black;">
-        <tr>
-            <td>
-                <nav >
-                    <ul>
-                        <li>
-                            <a href="index.html" style="color: white;">Pagina Inicial</a>
-                        </li>
-                        <li>
-                            <a href="contact.html" style="color: white;">Contatos</a>
-                        </li>
-                    </ul>
-                </nav>
-            
-            </td>
-            <td>
 
-                <h1 style="text-align: start; color: white; font-family: 'Zen Dots', cursive; ">Pagina inicial</h1>
-            
-            </td> 
-            <td>
+<body>
 
-                <img src="files/LS.png" alt="logo" width="100px" height="100px" >
-            
-            </td>   
-        </tr>
-    </table>
-    
-    <p style="font-family: 'Zen Dots', cursive; font-size: 44px;">Site pessoal Lucas Santos.</p>
-    
+    <div id="main">
+        <div id="header">
+            <div id="title">
+                <h1>Lucas Santos Rodrigues</h1>
+                <p>Desenvolvedor WEB e </p>
+                <p>Estudante de Engenharia da Computação</p>
+                <div id="contact">
+                    <p>Contato: </p>
+                    <a href="https://www.linkedin.com/in/lucas-santos-rodrigues-322371184/">Linkedin</a>
+                    <a href="mailto:lucassrodri08@gmail.com">Email</a>
+                </div>
+
+            </div>
+        </div>
+
+        <h2>Projetos feitos:</h2>
+        <div id="content">
+            <div class="card">
+                <img src="https://github.com/LuSrodri/Fundamentos-React/raw/main/result.png" alt="">
+                <h2>Learning React</h2>
+                <p>
+                    Esse projeto foi realizado com objetivo de aplicar os principais conceitos de React, React Router,
+                    React Hooks
+                    e React Redux
+                </p>
+                <a href="https://github.com/LuSrodri/Fundamentos-React">Link para o repositório</a>
+            </div>
+
+            <div class="card">
+                <img src="https://user-images.githubusercontent.com/70177919/139168074-ce9e0ad8-e503-4572-b2e2-4673796c3cf1.png"
+                    alt="">
+                <h2>Tetris Multiplayer</h2>
+                <p>
+                    Esse projeto foi realizado em grupo durante a Faculdade. Nosso projeto tem como principal objetivo o
+                    desenvolvimento de um jogo multiplayer web inspirado no famoso Tetris, onde até 4 jogadores podem
+                    jogar simultaneamente.
+                </p>
+                <a href="https://github.com/LuSrodri/PA6-Facens-BlockGame">Link para o repositório</a>
+            </div>
+
+            <div class="card">
+                <img src="https://github.com/LuSrodri/vue-vuex-router-axios/raw/main/resultado-final1.png" alt="">
+                <h2>Vue GoodMovies</h2>
+                <p>
+                    Esse projeto foi realizado com objetivo de aplicar os principais conceitos de Vue, Vuex, Router e
+                    Axios. Nesse site
+                    você pode acessar informação sobre diversos filmes e séries.
+                </p>
+                <a href="https://github.com/LuSrodri/vue-vuex-router-axios">Link para o repositório</a>
+            </div>
+
+            <div class="card">
+                <img src="https://github.com/LuSrodri/fullstack-React-Spring-LuVendas/raw/main/finalResult.png" alt="">
+                <h2>LuVendas</h2>
+                <p>
+                    Um projeto de um site de vendas feito com Spring boot Java e React First projeto fullstack realizado
+                    para o portfólio, utilizando Spring Boot/Java no backend, React no frontend e PostgreeSQL no banco
+                    de dados. A aplicação consiste em mostrar: a taxa de sucesso das vendas; quantidade de vendas por
+                    vendedores; e todas as vendas realizadas. O projeto foi realizado durante a "semana Spring React" do
+                    DevSuperior.
+                </p>
+                <a href="https://github.com/LuSrodri/fullstack-React-Spring-LuVendas">Link para o repositório</a>
+            </div>
+
+            <div class="card">
+                <img src="./images/blocksfallScreen.png" alt="">
+                <h2>Blocks' Fall</h2>
+                <p>
+                    Blocks' Fall é um jogo com inspiração no Tetris, onde você pode jogar no PC ou Mobile
+                    Este projeto está em desenvolvimento, e utilizo HTML, CSS, JavaScript para frontend e Node.js com
+                    Express.js para backend. Também utilizo os conceitos do Flexbox para o Design responsivo. E eu uso o
+                    Google Cloud com Cloud Run para hospedagem.
+                </p>
+                <a href="https://blocksfall.io/">Link para o site</a>
+            </div>
+        </div>
+
+
+    </div>
+
 </body>
+
 </html>
