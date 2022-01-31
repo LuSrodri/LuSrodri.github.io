@@ -13,6 +13,10 @@ html {
     font-family: 'Oswald', sans-serif;
 }
 
+body {
+    margin-bottom: 10vh;
+}
+
 div #main {
     display: flex;
     flex-direction: column;
@@ -39,7 +43,7 @@ div #title h1{
 
 div #contact {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -72,14 +76,11 @@ div.card img{
 }
 
 a {
-    text-decoration: none;
-    color: #FFE162;
-    margin-left: 15px;
+    color: #1F305D;
 }
 
 a:visited {
-    text-decoration: none;
-    color: #FFE162;
+    color: #1F305D;
 }
 
 a, p {
