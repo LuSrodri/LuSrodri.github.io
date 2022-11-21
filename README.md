@@ -1,7 +1,3 @@
-<h1>LuSrodri.github.io</h1>
+# LuSrodri.github.io
 
-https://lusrodri.github.io/
-
-A site with the most important projects that I did.
-
-<img src="./finalResult.png">
+Visit my portfolio website: <a href="https://lusrodri.me">lusrodri.me</a>
